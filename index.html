@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+
+<div class="Heading">
+    <h1>Student Enrollment Form</h1>
+</div>
+
+<section class="Main">
+
+<div class="Details">
+<form action="?" class="Detail-form">
+
+<div class="First-name lk" >
+    <label for="First-name">First-Name:</label>
+    <input id="Firstn" type="text" required autocomplete="off">
+</div>
+<div class="Last-name lk">
+    <label for="Last-name">Last-Name:</label>
+    <input  id="Lastn" type="text" required  autocomplete="off">
+</div>
+<div class="E-mail lk">
+    <label for="E-mail">E-mail:</label>
+    <input   id="emaill" type="email" required autocomplete="off">
+</div>
+<div class="Contact-no lk">
+    <label for="Contact-No">Contact-No:</label>
+<input id="num" type="number" max="10"  required >
+</div>
+<div class="Gender">
+    <label for="Gender">Gender</label>
+    <div class="radio">
+    <input id="radio"   type="Radio" name="Gender" value="Male">Male 
+    <input id="radio-1" type="Radio" name="Gender" value="Female">Female
+</div>
+    
+</div>
+<div class="Skills">
+
+    <label for="Skills">Skills</label>
+    <div class="Skills-c">
+        <input id="H" type="checkbox" name="Html" value="Html">Html
+        <input id="C" type="checkbox" name="Css" value="Css">Css
+        <input id="J" type="checkbox" name="Javascript" value="Js">Js
+    </div>
+
+</div>
+
+<div class="Image">
+    <label for="Image">Image</label>
+    <input id="Im" name="url" type="url">
+    <p>(In .jpg format)</p>
+</div>
+
+
+<div class="Buttons">
+    <Button type="button" id="Bttn">Enroll Student</Button>
+    <Button type="button" id="Clear">Clear</Button>
+</div>
+
+
+
+</form>
+</div>
+
+
+<div class="Result" id="Output">
+
+<h1>Students</h1>
+
+<!-- Copy in Java script   -->
+
+
+
+</div>
+</section>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
